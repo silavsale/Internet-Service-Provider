@@ -11,7 +11,7 @@ public class SubscriptionPlan {
     //Setters
     public void setSubPackage() {
         try {
-            System.out.println("Enter Your Subscription Packages:");
+            System.out.println("Enter Your Subscription Package:");
             subPackage = sc.next();
             this.subPackage = subPackage.toUpperCase();
         } catch (Exception e) {
@@ -103,6 +103,6 @@ public class SubscriptionPlan {
         System.out.println("Your subscription plan is " + getSubPackage());
         System.out.println("You have been used internet for " + getNumberOfHours() + " hours this month.");
         System.out.println("Your bill this month is $" + getPlan());
-        System.out.println("\nThank you for using our service.");
+        System.out.println("\nThank you for using our services.");
     }
 }
